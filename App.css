@@ -1,0 +1,125 @@
+/* Container for the entire app */
+/* Ensure smooth scrolling for the page */
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  font-family: "Arial", sans-serif;
+  
+  line-height: 1.6;
+  
+}
+
+/* Main header styles */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+  scroll-behavior: smooth
+}
+
+.nav-link:hover {
+  color: #ddd;
+}
+
+/* Section container */
+.section-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 40px 0; /* Add some spacing between sections */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+  flex: 2;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  padding-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-top: 2px solid #eee;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Adding styling for each point in the "How I Built the System" section */
+.technology-point {
+  font-size: 1.1rem;  /* Slightly larger font size */
+  line-height: 1.8;   /* Add space between lines */
+  margin-bottom: 15px;  /* Space between each point */
+}
+
+.technology-point strong {
+  color: #0073e6;  /* Highlight technology names in blue */
+  font-weight: bold;
+}
+
+.technology-point p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Alternate section image alignment */
+.image-container.even {
+  margin-left: 20px;
+}
+
+.image-container.odd {
+  margin-right: 20px;
+}
