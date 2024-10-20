@@ -1,0 +1,105 @@
+/* Admin Dashboard Styles with Brown Borders */
+.admin-dashboard {
+    background-image: url("https://assets-global.website-files.com/63062129119620a44791a2eb/639b7845e9be869771e540b8_mural-blog-images.jpg");
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.admin-dashboard h1 {
+    text-align: center;
+    color: black;
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #222; /* Dark background for table */
+    color: #fff; /* White text */
+    border: 2px solid brown; /* Brown border */
+}
+
+.admin-dashboard th,
+.admin-dashboard td {
+    padding: 10px;
+    border: 1px solid #8B4513; /* Dark brown borders */
+    text-align: left;
+}
+
+.admin-dashboard th {
+    background-color: #444; /* Original background retained */
+    border: 1px solid #A0522D; /* Medium brown border for header */
+}
+
+.admin-dashboard td {
+    background-color: #333; /* Original background retained */
+    border: 1px solid #A0522D; /* Medium brown border for rows */
+}
+
+.admin-dashboard button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #8B4513; /* Original yellow button retained */
+    color: #333;
+    border: 1px solid #8B4513; /* Dark brown border for button */
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.admin-dashboard button:hover {
+    background-color: #ffa500; /* Original hover color retained */
+    border: 1px solid #8B4513; /* Dark brown border on hover */
+}
+
+.edit-form {
+    background-color: #222; /* Original background retained */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #8B4513; /* Dark brown border for form */
+}
+
+.edit-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #A0522D; /* Medium brown border for inputs */
+    background-color: #333; /* Original background retained */
+    color: #fff;
+    width: 100%;
+}
+
+.edit-form button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Original yellow button retained */
+    color: #333;
+    border: 1px solid #8B4513; /* Dark brown border for button */
+    cursor: pointer;
+}
+
+.edit-form button:hover {
+    background-color: #ffa500; /* Original hover color retained */
+    border: 1px solid #8B4513; /* Dark brown border on hover */
+}
+
+/* Logout Button */
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffcc00; /* Original yellow background retained */
+    color: white;
+    border: 1px solid #8B4513; /* Dark brown border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #ffa500; /* Original hover color retained */
+    border: 1px solid #8B4513; /* Dark brown border on hover */
+}
